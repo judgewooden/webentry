@@ -4,6 +4,26 @@
 /* You might want to try something fancier: */
 /* less: http://lesscss.org/ */
 
+.douwe-css-box{
+  border: .05rem solid;
+  border-radius: 1rem;
+  min-height: 8rem;
+  box-shadow: none;
+  background-color: #888888;
+}
+
+.douwe-css-title{
+  text-align:center;
+  background-color: #dddddd;
+  padding: 0;
+}
+
+.douwe-css-subtitle{
+  text-align:center;
+  background-color: #ffdddd;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +44,8 @@ h1 {
 
 p {
   max-width: 600px;
+  font-weight: bold;
+  font-size: 160px;
 }
 
 form {
