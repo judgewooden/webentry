@@ -5,18 +5,23 @@
 /* less: http://lesscss.org/ */
 
 .douwe-css-box{
-  border: .05rem solid navy;
-  border-radius: 5px;
-  min-height: 70px;
+  font-size: 11px;
+  border: 1px solid navy;
+  border-radius: 1em;
+  min-height: 55px;
   box-shadow: none;
   background-color: #dddddd;
-  margin-bottom: 0; 
+  margin-bottom: 10px; 
   padding: 0;
+  overflow: hidden;
+}
 
+.douwe-css-value{
+  padding: 0;
 }
 
 .douwe-css-footer{
-  font-size: 10px;
+  font-size: 9px;
   text-align: center;
   border-top: 1px solid transparent;
   color: #333;
@@ -25,12 +30,11 @@
 }
 
 .douwe-css-title{
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
   text-align:center;
   border-bottom: 1px solid transparent;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  margin-bottom: 1px;
 }
 
 .douwe-css-info{
