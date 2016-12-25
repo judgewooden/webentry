@@ -5,17 +5,47 @@
 /* less: http://lesscss.org/ */
 
 .douwe-css-box{
-  border: .05rem solid;
-  border-radius: 1rem;
-  min-height: 8rem;
+  border: .05rem solid navy;
+  border-radius: 5px;
+  min-height: 70px;
   box-shadow: none;
-  background-color: #888888;
+  background-color: #dddddd;
+  margin-bottom: 0; 
+  padding: 0;
+
+}
+
+.douwe-css-footer{
+  font-size: 10px;
+  text-align: center;
+  border-top: 1px solid transparent;
+  color: #333;
+  background-color: #dddddd; 
+  padding: 0;
 }
 
 .douwe-css-title{
+  font-size: 10px;
+  font-weight: bold;
   text-align:center;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.douwe-css-info{
+  color: #333;
   background-color: #dddddd;
-  padding: 0;
+}
+
+.douwe-css-error{
+  color: #333;
+  background-color: #b74f33;
+}
+
+.douwe-css-okay{
+  color: #fff;
+  background-color: #337ab7;
 }
 
 .douwe-css-subtitle{
