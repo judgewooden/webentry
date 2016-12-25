@@ -1,0 +1,80 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Gomix!</title>
+    <meta name="description" content="A cool thing made with Gomix">
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+      integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Header
+      </h1>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-block douwe-css-box">
+            <div class="card-title douwe-css-title"> TITLE </div>
+            <div class="card-subtitle douwe-css-subtitle"> SUB-TITLE </div>
+            <div class="card-text" style="text-align:center"> TEXT </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-block data-toggle="tooltip" data-placement="bottom" title="Hoi tooltip"">
+            <div class="card-title douwe-css-title"> TITLE </div>
+            <div class="card-subtitle douwe-css-subtitle"> SUB-TITLE </div>
+            <div class="card-text" style="text-align:center"> TEXT </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-block">
+            <div class="card-title douwe-css-title drop-tooltip"> TITLE </div>
+            <div class="card-subtitle douwe-css-subtitle"> SUB-TITLE </div>
+            <div class="card-text" style="text-align:center"> TEXT </div>
+            <div class="card-footer"> footer </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://gomix.com">
+        Remix this in Gomix
+      </a>
+    </footer>
+
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+      integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" 
+      integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+<script>
+$('[data-toggle="tooltip"]').tooltip()
+</script>
+  
+  </body>
+</html>
