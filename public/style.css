@@ -4,63 +4,101 @@
 /* You might want to try something fancier: */
 /* less: http://lesscss.org/ */
 
-.douwe-css-box{
+
+.est{
+  
+
+  position: relative;
+  left: 4px;
+  bottom: 1px;
+}
+
+.jph-btn {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  /* line-height: 1.428571429; */
+  border-radius: 15px;
+  box-shadow: none;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 3px;
+}
+
+.jph-box{
   font-size: 11px;
-  border: 1px solid navy;
-  border-radius: 1em;
-  min-height: 55px;
+  border: .11em solid navy;
+  border-radius: .5em;
+  min-height: 70px;
   box-shadow: none;
   background-color: #dddddd;
-  margin-bottom: 10px; 
+  /* margin-bottom: 1em;  */
   padding: 0;
   overflow: hidden;
 }
 
-.douwe-css-value{
+.jph-box-header{
+  height: 15px;
   padding: 0;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0;
 }
 
-.douwe-css-footer{
+.jph-box-value{
+  padding: 0;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid trnsparent; /* dashed #f69c55; */
+}
+
+.jph-box-value-bar {
+  line-height:30px;
+}
+
+.jph-box-value-text{
+  text-align: center;
+  line-height: 30px;
+}
+
+.jph-box-footer{
+  height: 15px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   font-size: 9px;
   text-align: center;
   border-top: 1px solid transparent;
   color: #333;
   background-color: #dddddd; 
-  padding: 0;
 }
 
-.douwe-css-title{
-  font-size: 11px;
-  font-weight: bold;
-  text-align:center;
-  border-bottom: 1px solid transparent;
-  margin-bottom: 1px;
-}
-
-.douwe-css-info{
+.jph-info{
   color: #333;
   background-color: #dddddd;
 }
 
-.douwe-css-error{
+.jph-error{
   color: #333;
   background-color: #b74f33;
 }
 
-.douwe-css-okay{
+.jph-okay{
   color: #fff;
   background-color: #337ab7;
 }
 
-.douwe-css-subtitle{
-  text-align:center;
-  background-color: #ffdddd;
-  padding: 0;
-}
-
+/*
 * {
   box-sizing: border-box;
 }
+*/
 
 body {
   font-family: helvetica, arial, sans-serif;
