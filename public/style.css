@@ -5,14 +5,6 @@
 /* less: http://lesscss.org/ */
 
 
-.est{
-  
-
-  position: relative;
-  left: 4px;
-  bottom: 1px;
-}
-
 .jph-btn {
   width: 30px;
   height: 30px;
@@ -31,7 +23,7 @@
   font-size: 11px;
   border: .11em solid navy;
   border-radius: .5em;
-  min-height: 70px;
+  /* min-height: 70px; */
   box-shadow: none;
   background-color: #dddddd;
   /* margin-bottom: 1em;  */
@@ -49,11 +41,20 @@
   margin-bottom: 0;
 }
 
-.jph-box-value{
+.jph-box-subheader{
+  display: none; 
   padding: 0;
   line-height: 30px;
   text-align: center;
-  border: 1px solid trnsparent; /* dashed #f69c55; */
+  border: 1px solid transparent; /* dashed #f69c55; */
+}
+
+.jph-box-value{
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid transparent; /* dashed #f69c55; */
 }
 
 .jph-box-value-bar {
@@ -68,10 +69,10 @@
 .jph-box-footer{
   height: 15px;
   padding: 0;
-  position: absolute;
+/* position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
   font-size: 9px;
   text-align: center;
   border-top: 1px solid transparent;
@@ -92,6 +93,14 @@
 .jph-okay{
   color: #fff;
   background-color: #337ab7;
+}
+
+.mysub{
+  display: none;
+}
+
+.mytitle:hover mysub {
+  display: block;
 }
 
 /*
